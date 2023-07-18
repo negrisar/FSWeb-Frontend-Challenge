@@ -1,0 +1,38 @@
+.Skills{
+    width: 100%;
+    height: 530px;
+    justify-content: space-between;
+    padding-left: 239px;
+    padding-right: 239px;
+    padding-top: 100px;
+    padding-bottom:100px ;
+
+}
+
+.Skills h1{
+    margin: 0;
+    width: 128px;
+    height: 58px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(72, 50, 211, 1);
+
+
+}
+
+.skill-box{
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    gap: 35px;
+
+}
+
+.skill-box .skill{
+    display: flex;
+    width: fit-content;
+}
