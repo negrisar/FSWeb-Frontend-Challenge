@@ -1,9 +1,9 @@
+
 .App{
     margin: auto;
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 3286px;
     top: -1547px;
     left: 2922px;
     background: rgba(255, 255, 255, 1);
@@ -12,3 +12,183 @@
 div{
     display: flex;
 }
+
+
+.switch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 75.5%;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+
+.switchMain{
+  background: 
+    linear-gradient(
+    to right,
+    rgba(71, 49, 211, 1) 0%,
+    rgba(71, 49, 211, 1) 70%,
+    rgba(203, 242, 129, 1) 30%,
+    rgba(203, 242, 129, 1) 100%
+  );
+}
+
+.switchMain button.darkButton{
+  display: flex;
+}
+
+.darkButton {
+  background:rgba(143, 136, 255, 1);
+  border-radius: 6.25rem;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 3.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.darkText {
+  font-style: normal;
+  font-weight:300;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.1em;
+  color: rgba(71, 49, 211, 1);
+  font-weight: bold;
+}
+
+#dark .darkText{
+  color: rgba(217, 217, 217, 1);
+  font-weight:300;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.language {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.1em;
+  display: flex;
+    padding-right: 4rem;
+    color:rgba(203, 242, 129, 1);
+    justify-content: flex-end;
+    width: 60%;
+}
+
+#dark .language{
+  color: rgba(217, 217, 217, 1);
+}
+
+.languageHover {
+  cursor: pointer;
+}
+
+body #dark {
+  background: #252128;
+}
+
+#dark .darkButton{
+  background-color: rgba(58, 58, 58, 1);
+}
+
+#dark .Hero{
+  background: 
+  linear-gradient(
+    to right,
+    rgba(23, 16, 67, 1) 0%,
+    rgba(23, 16, 67, 1) 70%,
+    rgba(26, 33, 11, 1) 30%,
+    rgba(26, 33, 11, 1) 100%
+  );
+}
+
+#dark .Hero button{
+  background: rgba(37, 33, 40, 1);
+  color: white;
+}
+
+#dark .Skills h1{
+  color: rgba(203, 242, 129, 1);
+}
+
+#dark .Skills p{
+  color:white;
+}
+
+#dark .Profile{
+  background: rgba(23, 16, 67, 1);
+}
+
+#dark .Projects{
+  background-color: rgba(26, 33, 11, 1);
+}
+
+#dark .Projects h1{
+  color: rgba(203, 242, 129, 1);
+}
+
+#dark .Projects .each-card{
+  background-color: rgba(43, 39, 39, 1);
+}
+
+#dark .Projects .project-card{
+  background-color:  rgba(43, 39, 39, 1) ;
+}
+
+#dark .Projects .project-card h2{
+  color:rgba(193, 186, 237, 1);
+}
+
+#dark .Projects .project-card p{
+  color:rgba(255, 255, 255, 1);
+}
+
+
+#dark .Projects .link a{
+  color:rgba(203, 242, 129, 1);
+}
+
+#dark .full-card .each-skill p{
+  background-color: rgba(143, 136, 255, 1);
+}
+
+
+#dark .Footer h1{
+  color: rgba(143, 136, 255, 1)
+}
+
+#dark .Footer p{
+  color: rgba(255, 255, 255, 1)
+}
+
+#dark .Footer a{
+  color: rgba(143, 136, 255, 1)
+}
+
+#dark .switchMain{
+  background: 
+  linear-gradient(
+    to right,
+    rgba(23, 16, 67, 1) 0%,
+    rgba(23, 16, 67, 1) 70%,
+    rgba(26, 33, 11, 1) 30%,
+    rgba(26, 33, 11, 1) 100%
+  );
+
+}
+
+#dark .switchMain button.darkButton{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
